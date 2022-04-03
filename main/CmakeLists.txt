@@ -1,2 +1,2 @@
 idf_component_register(SRCS "app_main.c"
-                    INCLUDE_DIRS "../components" "../main/include")
+                    INCLUDE_DIRS "../components/http/include" "../components/vector/include" "../components/ui/include" "../components/fifo/include" "../components/audio_renderer/include" "../components/audio_player/include" "../components/web_radio/include" "../components/common/include" "../components/playlist/include" "../main/include")

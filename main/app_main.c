@@ -124,7 +124,7 @@ static void start_web_radio()
 /**
  * entry point
  */
-extern "C" void app_main()
+void app_main()
 {
     ESP_LOGI(TAG, "starting app_main()");
     ESP_LOGI(TAG, "RAM left: %u", esp_get_free_heap_size());
